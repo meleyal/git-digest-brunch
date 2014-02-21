@@ -1,0 +1,18 @@
+{
+  "name": "git-digest-brunch",
+  "version": "1.0.0",
+  "description": "Hello",
+  "author": "William Meleyal",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:meleyal/git-digest-brunch.git"
+  },
+  "main": "./src/index",
+  "devDependencies": {
+    "coffee-script": "latest"
+  },
+  "dependencies": {
+    "replace": "~0.2.9",
+    "chomp": "0.0.1"
+  }
+}
