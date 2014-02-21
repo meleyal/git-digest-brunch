@@ -1,7 +1,7 @@
 git-digest-brunch
 =================
 
-A [Brunch][http://brunch.io] plugin for cache busting urls using the SHA digest of the current git revision. 
+A [Brunch](http://brunch.io) plugin for cache busting urls using the SHA digest of the current git revision. 
 
 
 ## Usage
