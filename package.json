@@ -1,7 +1,7 @@
 {
   "name": "git-digest-brunch",
   "version": "1.0.0",
-  "description": "Hello",
+  "description": "Adds cache busting support to Brunch via git commit SHA",
   "author": "William Meleyal",
   "repository": {
     "type": "git",
