@@ -3,15 +3,22 @@
   "version": "1.0.2",
   "description": "Adds cache busting support to Brunch via git commit SHA",
   "author": "William Meleyal",
+  "homepage": "https://github.com/meleyal/git-digest-brunch",
   "repository": {
     "type": "git",
     "url": "git@github.com:meleyal/git-digest-brunch.git"
   },
-  "devDependencies": {
-    "coffee-script": "latest"
+  "scripts": {
+    "test": "node_modules/.bin/mocha test.coffee --watch --compilers coffee:coffee-script/register"
   },
   "dependencies": {
     "replace": "~0.2.9",
     "chomp": "0.0.1"
+  },
+  "devDependencies": {
+    "coffee-script": "latest",
+    "mocha": "latest",
+    "chai": "latest",
+    "sinon": "latest"
   }
 }
