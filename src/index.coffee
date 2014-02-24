@@ -8,11 +8,12 @@ module.exports = class GitDigest
 
   constructor: (@config) ->
 
+  onCompile: ->
+    return unless @config.optimize
+    @execute 'git rev-parse --short HEAD', @replace
+
   execute: (command, callback) ->
     exec command, (error, stdout, stderr) -> callback stdout
-
-  onCompile: ->
-    @execute 'git rev-parse --short HEAD', @replace
 
   replace: (digest) =>
     replace
