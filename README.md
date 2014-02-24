@@ -17,7 +17,7 @@ Add the `DIGEST` token to any file paths you want to cache bust:
     canvas.image "/images/sprite.png?DIGEST", 0, 0, 150, 150
     etc.
 
-Build via `brunch build` / `brunch watch`, file paths are now cache busted:
+Build with `brunch build --production`, file paths are now cache busted:
 
     <link rel="stylesheet" href="stylesheets/app.css?aca2b34">
     background-image: url('/images/hello.png?aca2b34');
